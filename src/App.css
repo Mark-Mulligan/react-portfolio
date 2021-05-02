@@ -11,3 +11,11 @@ html {
 @media (max-width: 400px) {
   html { font-size: 13px; }
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #e3fff8;
+}
+
+.light-blue {
+  color: #72cdda;
+}
