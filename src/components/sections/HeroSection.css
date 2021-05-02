@@ -4,7 +4,8 @@
 
 .animated-img-container {
   height: 100vh;
-  background: #09141c;
+  /* background: #09141c; */
+  background: #07161f;
   position: relative;
   display: flex;
   align-items: center;
@@ -13,7 +14,7 @@
 }
 
 .animated-img {
-  overflow: scroll;
+  /* overflow: scroll; */
   display: inline-block;
 }
 
@@ -27,6 +28,66 @@
   height: 0;
   border: 62.5px solid;
   border-color: #666 #ccc #aaa #888;
+}
+
+@media (max-width: 1200px) {
+  .square {
+    border: 60px solid;
+  }
+}
+
+@media (max-width: 1100px) {
+  .square {
+    border: 56px solid;
+  }
+}
+
+@media (max-width: 1000px) {
+  .square {
+    border: 52px solid;
+  }
+}
+
+@media (max-width: 920px) {
+  .square {
+    border: 48px solid;
+  }
+}
+
+@media (max-width: 850px) {
+  .square {
+    border: 44px solid;
+  }
+}
+
+@media (max-width: 780px) {
+  .square {
+    border: 40px solid;
+  }
+}
+
+@media (max-width: 720px) {
+  .square {
+    border: 36px solid;
+  }
+}
+
+@media (max-width: 660px) {
+  .square {
+    border: 32px solid;
+  }
+}
+
+@media (max-width: 600px) {
+  .square {
+    border: 28px solid;
+  }
+}
+
+@media (max-width: 500px) {
+  .square {
+    border: 24px solid;
+  }
 }
 
 .row-0 .column-0 {
