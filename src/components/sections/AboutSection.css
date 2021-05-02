@@ -1,41 +1,5 @@
 .about-section {
+  padding-top: 100px;
   min-height: 100vh;
-  padding-top: 150px;
-  text-align: center;
 }
 
-.quote-container {
-  text-align: left;
-  max-width: 700px;
-  display: inline-block;
-  margin: auto;
-  padding: 10px;
-}
-
-.quote-container h2, h3{
-  font-style: italic;
-}
-
-@media (max-width: 850px) {
-  .about-section {
-    padding-top: 90px;
-  }
-}
-
-@media (max-width: 720px) {
-  .about-section {
-    padding-top: 25px;
-  }
-}
-
-@media (max-width: 500px) {
-  .about-section {
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 380px) {
-  .quote-container h2 {
-    font-size: 1.6rem;
-  }
-}
