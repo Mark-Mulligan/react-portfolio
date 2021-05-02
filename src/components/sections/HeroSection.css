@@ -1,11 +1,9 @@
 .hero-section {
-  min-height: 110vh;
+  min-height: 100vh;
 }
 
 .animated-img-container {
   height: 100vh;
-  /* background: #09141c; */
-  background: #07161f;
   position: relative;
   display: flex;
   align-items: center;
@@ -21,7 +19,7 @@
 
 .center-square-wrapper {
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   height: 100%;
   width: 100%;
   display: flex;
@@ -33,6 +31,13 @@
   position: relative;
   height: 125px;
   width: 125px;
+  z-index: 2;
+}
+
+.title-root {
+  position: absolute;
+  top: 43%;
+  right: 44.5%;
 }
 
 .hero-text {
@@ -42,6 +47,17 @@
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.skills-text {
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 
 .hero-text h1 {
@@ -57,12 +73,50 @@
   bottom: -100%;
 }
 
+.react {
+  right: 200%;
+  bottom: 200%;
+}
+
+.javascript {
+  bottom: 200%;
+}
+
+.css {
+  bottom: 200%;
+  left: 200%;
+}
+
+.bootstrap {
+  right: 200%;
+}
+
+.uiux {
+  left: 200%;
+}
+
+.node {
+  right: 200%;
+  top: 200%;
+}
+
+.sql {
+  top: 200%;
+}
+
+
+.mongodb {
+  top: 200%;
+  left: 200%;
+}
+
 .my-row {
   display: flex;
   flex-direction: row;
 }
 
 .square {
+  position: relative;
   width: 0;
   height: 0;
   border: 62.5px solid;
@@ -136,6 +190,10 @@
   .center-square {
     height: 80px;
     width: 80px;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
   }
 }
 
