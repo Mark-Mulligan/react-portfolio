@@ -69,3 +69,44 @@
 .row-1 .column-0 {
   border-color: #07161f #081b24 #07161f #07161f;
 }
+
+.row-1 .column-1 {
+  border-color: #081b24 #11313f #194455 #08252d;
+}
+
+.row-1 .column-2 {
+  border-color: #326d87 #2b647f #29627c #33738d;
+}
+
+.row-1 .column-3 {
+  border-color: #1e4c63 #1e4c63 #2c6580 #326d87;
+}
+
+.row-1 .column-4 {
+  border-color: #1f4e65 #1f4e65 #2a6883 #2a6883;
+}
+
+.row-1 .column-5 {
+  border-color: #0c212a #0c212a #29627c #29627c;
+}
+
+.row-1 .column-6 {
+  border-color: #1c4a5f #1c4a5f #0c212a #0c212a;
+}
+
+.row-1 .column-7 {
+  border-color:#0b1e28;
+}
+
+.row-1 .column-8 {
+  border-color: #0b151d;
+}
+
+/* Row 2 */
+.row-2 .column-0 {
+  border-color:#091720;
+}
+
+.row-2 .column-1 {
+  border-color: #14404f #173b4c#163a49 #123240;
+}
