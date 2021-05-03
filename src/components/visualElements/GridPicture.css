@@ -3,6 +3,12 @@
   height: 300px;
 }
 
+.grid-picture:hover {
+  cursor: pointer;
+  filter: brightness(150%);
+  transition: .4s ease-in-out;;
+}
+
 .picture-description {
   position: absolute;
   height: 100%;
