@@ -7,43 +7,46 @@ const ProjectsSection = () => {
         <h2 className="text-center">Projects</h2>
       </div>
 
-      <div className="container projects-container p-0">
-        <div className="projects-row">
-          <div className="left-picture"></div>
-          <div className="right-description">
-            <div>
-            <h3>Sneakerheads</h3>
-            <p>Social Media sight for those that love shoes.</p>
-            <div class="project-links-container">
-              <div>
-                <a href="https://sneaker-heads.herokuapp.com" target="_blank">View Project</a>
-              </div>
-              <div>
-                <a href="https://github.com/hugo2211/Sneaker_Head" target="_blank">Github</a>
+      <div class="container projects-container p-0">
+        <div class="project-row">
+          <div class="background-image-test"></div>
+          <div class="description-background">
+            <div class="project-info-wrapper">
+              <div class="project-info">
+                <h3 class="text-center">Sneakerheads</h3>
+                <p>Social Media sight for those that love shoes.</p>
+                <div class="project-links-container">
+                  <div>
+                    <a
+                      href="https://sneaker-heads.herokuapp.com"
+                      target="_blank"
+                    >
+                      View Project
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/hugo2211/Sneaker_Head"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
-            
-
           </div>
         </div>
 
-        <div className="projects-row">
-          <div className="left-picture-2"></div>
-          <div className="right-description-2"></div>
+        <div class="project-row">
+          <div class="background-image-test project-2"></div>
+          <div class="description-background background-2"></div>
         </div>
 
-        <div className="projects-row">
-          <div className="left-picture project-2"></div>
-          <div className="right-description"></div>
+        <div class="project-row">
+          <div class="background-image-test project-3"></div>
+          <div class="description-background"></div>
         </div>
-
-        <div className="projects-row">
-          <div className="left-picture-2"></div>
-          <div className="right-description-2"></div>
-        </div>
-
-        
       </div>
     </section>
   );

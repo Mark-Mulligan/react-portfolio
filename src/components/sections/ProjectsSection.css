@@ -7,74 +7,25 @@
   font-size: 2.8rem;
 }
 
-.projects-container {
-  position: relative;
-}
-
-.projects-row {
-  position: relative;
-  height: 350px;
-}
-
-@media (max-width: 991px) {
-  .projects-row {
-    height: 300px;
-  }
-}
-
-@media (max-width: 767px) {
-  .projects-row {
-    height: 250px;
-  }
-}
-
-@media (max-width: 575px) {
-  .projects-row {
-    height: 200px;
-  }
-}
-
-.left-picture {
-  position: aboslute;
-  left: 0;
-  clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
-  width: 75%;
-  background-image: url("../../images/SneakerHeadsScreenShot.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-}
-
-.right-description {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
-  background-color: rgba(14, 52, 77, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: right;
-}
-
-.right-description p {
+.projects-container p {
   font-weight: 300;
+  font-size: 1rem;
 }
 
-.right-description h3 {
+.projects-container h3 {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 2rem;
 }
 
-.right-description a {
-  font-size: 19px;
+.projects-container a {
+  font-size: 1rem;
   padding-bottom: 3px;
+  color: #72cdda;
 }
 
-.right-description a:hover {
-  border-bottom: 1px solid rgb(220, 220, 220);
+.projects-container a:hover {
+  border-bottom: 1px solid #72cdda;
+  color: #72cdda;
 }
 
 .right-links-container div {
@@ -82,28 +33,89 @@
   margin-bottom: 6px;
 }
 
-.left-picture-2 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
-  width: 75%;
-  height: 100%;
-  background-image: url("../../images/invoiceGeneratorBackground.jpg");
-  background-position: center;
-  background-size: cover;
+.project-row {
+  height: 400px;
+  position: relative;
 }
 
-.right-description-2 {
+.background-image-test {
+  background-image: url("../../images/sneakerheadsFeed2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.description-background {
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
   width: 50%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+  background:rgba(14, 52, 77, 0.8);
+}
+
+@media (max-width: 991px) {
+  .project-row {
+    height: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-row {
+    height: 280px;
+  }
+
+  .right-triangle {
+    width: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-row {
+    height: 240px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-row {
+    height: 200px;
+  }
+
+  .right-triangle {
+    width: 75%;
+  }
+}
+
+.background-2 {
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-  background-color: rgba(14, 52, 77, 1);
+}
+
+.project-info-wrapper {
+  margin-left: auto;
+  width: 75%;
+  height: 80%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-info {
+  max-width: 300px;
+}
+
+.project-1 {
+  background-image: url("../../images/SneakerHeadsScreenShot.jpeg");
 }
 
 .project-2 {
+  background-image: url("../../images/invoiceGeneratorBackground.jpg")
+}
+
+.project-3 {
   background-image: url("../../images/employeeManagementSystem.jpg");
 }
