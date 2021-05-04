@@ -12,7 +12,13 @@ html {
   html { font-size: 13px; }
 }
 
-h1, h2, h3, h4, h5, h6, p {
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
   color: #e3fff8;
 }
 

@@ -1,8 +1,4 @@
 import "./AboutSection.css";
-import responsiveExample from "../../images/responsiveExample.jpg";
-import dynamic from "../../images/dynamic.jpg";
-import simpleImg from "../../images/simplicity.jpg";
-import stylishPicture from "../../images/stylishPicture.jpg";
 import PictureGrid from "../visualElements/PictureGird";
 
 const AboutSection = () => {
@@ -15,20 +11,48 @@ const AboutSection = () => {
 
       <PictureGrid />
 
-
       <div className="container skills-container">
         <div class="row">
           <div class="col-md-6 col-12">
-            <h3 class="text-center">About</h3>
+            <div class="text-center">
+              <h3>About</h3>
+            </div>
+
             <p class="bio">
               Hey, I'm Mark, a Front End Developer based in Dallas TX. I love to
               build amazing websites with simple, intuitive user interfaces. I
-              am always looking for new things to learn and projects to take on. 
-              <a href="#" class="light-blue"> Let's work together.</a>
+              am always looking for new things to learn and projects to take on.
+              <a href="#" class="light-blue">
+                {" "}
+                Let's work together.
+              </a>
             </p>
           </div>
-          <div class="col-md-6 col-12">
-            <h3 class="text-center">Skills</h3>
+          <div class="col-md-6 col-12 skills-col">
+            <div class="text-center">
+              <h3>Skills</h3>
+            </div>
+
+            <ul class="skills">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <li>React.js</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <div>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>SQL</li>
+                  <li>MongoDB</li>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
       </div>
