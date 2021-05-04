@@ -1,75 +1,82 @@
 .projects-section {
   min-height: 100vh;
+  padding-bottom: 150px;
 }
 
 .projects-section h2 {
   font-size: 2.8rem;
 }
 
-.fixed-background {
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+.projects-container {
   position: relative;
 }
 
-.project-1-image {
-  background-image: url("../../images/sneakerheadsMobile.jpg");
+.projects-row {
+  position: relative;
+  height: 350px;
 }
 
-@media (min-width: 500px) {
-  .fixed-background {
-    background-attachment: fixed;
-  }
-
-  .project-1-image {
-    background-image: url("../../images/SneakerHeadsScreenShot.jpeg");
+@media (max-width: 991px) {
+  .projects-row {
+    height: 300px;
   }
 }
 
-.project-description {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(220, 220, 220);
-  width: 50%;
+@media (max-width: 767px) {
+  .projects-row {
+    height: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .projects-row {
+    height: 200px;
+  }
+}
+
+.left-picture {
+  position: aboslute;
+  left: 0;
+  clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
+  width: 75%;
+  background-image: url("../../images/SneakerHeadsScreenShot.jpeg");
+  background-position: center;
+  background-size: cover;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  background: rgba(7, 22, 31, 0.5);
-  padding: 10px;
 }
 
-@media (max-width: 800px) {
-  .project-description {
-    width: 100%;
-  }
+.right-description {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+  background-color: rgba(14, 52, 77, 1);
 }
 
-.description-text-container {
-  max-width: 300px;
-  padding-left: 5px;
+.left-picture-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+  width: 75%;
+  height: 100%;
+  background-image: url("../../images/invoiceGeneratorBackground.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.project-description p {
-  font-weight: 300;
+.right-description-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  background-color: rgba(14, 52, 77, 1);
 }
 
-.project-description h2 {
-  font-weight: 900;
-  font-size: 44px;
-}
-
-.project-description a {
-  font-size: 19px;
-  padding-bottom: 3px;
-}
-
-.project-description a:hover {
-  border-bottom: 1px solid rgb(220, 220, 220);
-}
-
-.project-links-container div {
-  margin-top: 6px;
-  margin-bottom: 6px;
+.project-2 {
+  background-image: url("../../images/employeeManagementSystem.jpg");
 }
