@@ -40,12 +40,45 @@ const ProjectsSection = () => {
 
         <div class="project-row">
           <div class="background-image-test project-2"></div>
-          <div class="description-background background-2"></div>
+          <div class="description-background background-2">
+          <div class="project-info-wrapper">
+              <div class="project-info">
+                <h3 class="text-center">Invoice Generator</h3>
+                <p>Designed to help private lesson teachers, tutors, and others who
+              manage a studio of students.</p>
+                <div class="project-links-container">
+                  <div>
+                  <a href="https://employee-management-system-1.herokuapp.com/" target="_blank">View Project</a>
+                  </div>
+                  <div>
+                  <a href="https://github.com/Mark-Mulligan/react-employee-management-system" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
         <div class="project-row">
           <div class="background-image-test project-3"></div>
-          <div class="description-background"></div>
+
+          <div class="description-background">
+            <div class="project-info-wrapper">
+              <div class="project-info">
+                <h3 class="text-center">Employee Management System</h3>
+                <p>For all your business administartion needs.</p>
+                <div class="project-links-container">
+                  <div>
+                  <a href="https://employee-management-system-1.herokuapp.com/" target="_blank">View Project</a>
+                  </div>
+                  <div>
+                  <a href="https://github.com/Mark-Mulligan/react-employee-management-system" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
