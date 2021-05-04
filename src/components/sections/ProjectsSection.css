@@ -53,6 +53,33 @@
   width: 50%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
   background-color: rgba(14, 52, 77, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.right-description p {
+  font-weight: 300;
+}
+
+.right-description h3 {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.right-description a {
+  font-size: 19px;
+  padding-bottom: 3px;
+}
+
+.right-description a:hover {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.right-links-container div {
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .left-picture-2 {
