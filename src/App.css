@@ -26,6 +26,17 @@ hr {
   border: 1px solid #e3fff8;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
 .light-blue {
   color: #72cdda;
 }
