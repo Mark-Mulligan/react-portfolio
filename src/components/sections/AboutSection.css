@@ -6,3 +6,22 @@
 .about-section h2 {
   font-size: 2.8rem;
 }
+
+.skills-container {
+  margin-top: 75px;
+}
+
+.bio {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.bio a {
+  text-decoration: none;
+}
+
+.bio a:hover {
+  cursor: pointer;
+  color: #72cdda;
+  border-bottom: 2px solid;
+}

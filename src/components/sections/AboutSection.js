@@ -15,18 +15,19 @@ const AboutSection = () => {
 
       <PictureGrid />
 
-      <div className="container">
+
+      <div className="container skills-container">
         <div class="row">
-          <div class="col">
+          <div class="col-md-6 col-12">
             <h3 class="text-center">About</h3>
             <p class="bio">
               Hey, I'm Mark, a Front End Developer based in Dallas TX. I love to
               build amazing websites with simple, intuitive user interfaces. I
-              am always looking for new things to learn and projects to take on.
-              Let's work together.
+              am always looking for new things to learn and projects to take on. 
+              <a href="#" class="light-blue"> Let's work together.</a>
             </p>
           </div>
-          <div class="col">
+          <div class="col-md-6 col-12">
             <h3 class="text-center">Skills</h3>
           </div>
         </div>
