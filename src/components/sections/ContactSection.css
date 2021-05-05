@@ -1,0 +1,35 @@
+.contact-section {
+  min-height: 50vh;
+}
+
+.bottom {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.right-triangle {
+  position: absolute;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  top: 0;
+  left: 75%;
+  width: 25%;
+  height: 100%;
+  background: rgba(14, 52, 77, 1);
+}
+
+.contact-links {
+  display: inline-block;
+  margin: auto;
+}
+
+.contact-links li {
+  margin: 10px;
+}
+
+.contact-links a {
+  font-size: 1.4rem;
+  padding: 2px;
+  border-bottom: 2px solid;
+}
