@@ -17,24 +17,24 @@
 }
 
 @media (max-width: 850px) {
-  .about-section {
+  .quote-section {
     padding-top: 90px;
   }
 }
 
 @media (max-width: 720px) {
-  .about-section {
+  .quote-section {
     padding-top: 25px;
   }
 }
 
 @media (max-width: 500px) {
-  .about-section {
+  .quote-section {
     padding-top: 0;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 385px) {
   .quote-container h2 {
     font-size: 1.6rem;
   }

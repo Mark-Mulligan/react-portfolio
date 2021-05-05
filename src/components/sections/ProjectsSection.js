@@ -1,4 +1,5 @@
 import "./ProjectsSection.css";
+import ProjectPanel from "../visualElements/ProjectPanel";
 
 const ProjectsSection = () => {
   return (
@@ -8,78 +9,29 @@ const ProjectsSection = () => {
       </div>
 
       <div class="container projects-container p-0">
-        <div class="project-row">
-          <div class="background-image-test"></div>
-          <div class="description-background">
-            <div class="project-info-wrapper">
-              <div class="project-info">
-                <h3 class="text-center">Sneakerheads</h3>
-                <p>Social Media sight for those that love shoes.</p>
-                <div class="project-links-container">
-                  <div>
-                    <a
-                      href="https://sneaker-heads.herokuapp.com"
-                      target="_blank"
-                    >
-                      View Project
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="https://github.com/hugo2211/Sneaker_Head"
-                      target="_blank"
-                    >
-                      Github
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-row">
-          <div class="background-image-test project-2"></div>
-          <div class="description-background background-2">
-          <div class="project-info-wrapper">
-              <div class="project-info">
-                <h3 class="text-center">Invoice Generator</h3>
-                <p>Designed to help private lesson teachers, tutors, and others who
-              manage a studio of students.</p>
-                <div class="project-links-container">
-                  <div>
-                  <a href="https://employee-management-system-1.herokuapp.com/" target="_blank">View Project</a>
-                  </div>
-                  <div>
-                  <a href="https://github.com/Mark-Mulligan/react-employee-management-system" target="_blank">Github</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="project-row">
-          <div class="background-image-test project-3"></div>
-
-          <div class="description-background">
-            <div class="project-info-wrapper">
-              <div class="project-info">
-                <h3 class="text-center">Employee Management System</h3>
-                <p>For all your business administartion needs.</p>
-                <div class="project-links-container">
-                  <div>
-                  <a href="https://employee-management-system-1.herokuapp.com/" target="_blank">View Project</a>
-                  </div>
-                  <div>
-                  <a href="https://github.com/Mark-Mulligan/react-employee-management-system" target="_blank">Github</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ProjectPanel
+          cssProjectClass="project-1"
+          title="Sneakerheads"
+          description="Social Media sight for those that love shoes."
+          liveLink="https://sneaker-heads.herokuapp.com"
+          githubLink="https://github.com/hugo2211/Sneaker_Head"
+        />
+        <ProjectPanel
+          cssProjectClass="project-2"
+          title="Invoice Generator"
+          description="Designed to help private lesson teachers, tutors, and others create invoices."
+          liveLink="https://employee-management-system-1.herokuapp.com"
+          githubLink="https://github.com/Mark-Mulligan/react-employee-management-system"
+          bottom
+        />
+        <ProjectPanel 
+          cssProjectClass="project-3"
+          title="Employee Management System"
+          description="For all your business administartion needs."
+          liveLink="https://employee-management-system-1.herokuapp.com"
+          githubLink="https://github.com/Mark-Mulligan/react-employee-management-system"
+        />
+         
       </div>
     </section>
   );

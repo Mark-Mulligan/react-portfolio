@@ -75,11 +75,11 @@ const HeroSection = () => {
               <h2>UI/UX</h2>
             </div>
 
-            <div className="skills-text node">
+            <div className="hero-text skills-text node">
               <h2>Node.js</h2>
             </div>
 
-            <div className="skills-text sql">
+            <div className="hero-text skills-text sql">
               <h2>SQL</h2>
             </div>
 

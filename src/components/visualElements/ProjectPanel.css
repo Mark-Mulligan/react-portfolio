@@ -1,0 +1,129 @@
+.project-panel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.project-panel h2 {
+  font-size: 2.6rem;
+}
+
+.project-panel p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.project-panel h3 {
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.project-panel a {
+  font-size: 1rem;
+  padding-bottom: 3px;
+  color: #72cdda;
+}
+
+.project-panel a:hover {
+  border-bottom: 1px solid #72cdda;
+  color: #72cdda;
+}
+
+.project-image {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.description-background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background:rgba(14, 52, 77, 0.8);
+}
+
+.top-panel {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+.bottom-panel {
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.project-info-wrapper {
+  margin-left: auto;
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-info {
+  max-width: 240px;
+}
+
+.project-links-container div {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 991px) {
+  .project-panel {
+    height: 340px;
+  }
+
+  .description-background {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-panel {
+    height: 280px;
+  }
+
+  .description-background {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-panel {
+    height: 240px;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-info {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-panel {
+    height: 200px;
+  }
+
+  .description-background {
+    width: 75%;
+  }
+}
+
+.project-1 {
+  background-image: url("../../images/sneakerheadFeed.jpg");
+}
+
+.project-2 {
+  background-image: url("../../images/invoiceGeneratorBackground.jpg")
+}
+
+.project-3 {
+  background-image: url("../../images/employeeManagementSystem.jpg");
+}
