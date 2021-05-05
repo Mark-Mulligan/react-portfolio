@@ -40,3 +40,8 @@ a:hover {
 .light-blue {
   color: #72cdda;
 }
+
+.section-title {
+  border-bottom: 2px solid;
+  display: inline-block;
+}

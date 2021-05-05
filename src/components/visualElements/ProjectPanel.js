@@ -1,15 +1,15 @@
 import "./ProjectPanel.css";
 
-const ProjectPanel = ({ cssProjectClass, title, description, liveLink, githubLink, bottom }) => {
+const ProjectPanel = ({ cssImgClass, panelType, rightSide, title, description, liveLink, githubLink }) => {
   return (
     <div class="project-panel">
-          <div class={`project-image ${cssProjectClass}`}></div>
-          <div class={`description-background ${bottom ? 'bottom-panel' : 'top-panel'}`}>
-            <div class="project-info-wrapper">
+          <div class={`project-image ${cssImgClass}`}></div>
+          <div class={`description-background ${panelType}`}>
+            <div class={`project-info-wrapper ${rightSide ? 'right-info' : ''}`}>
               <div class="project-info">
                 <h3 class="text-center">{title}</h3>
                 <p>{description}</p>
-                <div class="project-links-container">
+                {liveLink || githubLink ? <div class="project-links-container">
                   <div>
                     <a
                       href={liveLink}
@@ -19,7 +19,8 @@ const ProjectPanel = ({ cssProjectClass, title, description, liveLink, githubLin
                       More Info
                     </a>
                   </div>
-                </div>
+                </div> : null}
+                
               </div>
             </div>
           </div>

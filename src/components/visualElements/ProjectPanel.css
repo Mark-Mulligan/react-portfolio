@@ -39,23 +39,33 @@
 
 .description-background {
   position: absolute;
-  right: 0;
   top: 0;
   height: 100%;
   width: 50%;
   background:rgba(14, 52, 77, 0.8);
 }
 
-.top-panel {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+.top-left-panel {
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+  left: 0;
 }
 
-.bottom-panel {
+.bottom-left-panel {
+  clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  left: 0;
+}
+
+.top-right-panel {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+  right: 0;
+}
+
+.bottom-right-panel {
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  right: 0;
 }
 
 .project-info-wrapper {
-  margin-left: auto;
   width: 75%;
   height: 100%;
   text-align: center;
@@ -63,6 +73,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.right-info {
+  margin-left: auto;
 }
 
 .project-info {
@@ -126,4 +140,20 @@
 
 .project-3 {
   background-image: url("../../images/employeeManagementSystem.jpg");
+}
+
+.responsive-image {
+  background-image: url("../../images/responsiveExample.jpg");
+}
+
+.dynamic-image {
+  background-image: url("../../images/dynamic.jpg");
+}
+
+.stylish-image {
+  background-image: url("../../images/stylishPicture.jpg");
+}
+
+.simple-image {
+  background-image: url("../../images/simplicity.jpg");
 }

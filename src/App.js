@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import Rellax from "rellax";
 import './App.css';
 import "./components/sections/HeroSection";
 import HeroSection from './components/sections/HeroSection';
@@ -7,6 +9,17 @@ import ProjectsSection from "./components/sections/ProjectsSection";
 import ContactSection from "./components/sections/ContactSection";
 
 function App() {
+
+  useEffect(() => {
+    new Rellax(".animate", { // <---- Via class name
+      speed: 3,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+  }, []);
   return (
     <div class="app">
       <HeroSection />

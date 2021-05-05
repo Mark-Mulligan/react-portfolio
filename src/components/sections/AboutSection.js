@@ -1,20 +1,46 @@
 import "./AboutSection.css";
 import PictureGrid from "../visualElements/PictureGird";
+import ProjectPanel from "../visualElements/ProjectPanel";
 
 const AboutSection = () => {
   return (
     <section className="about-section">
-      <div className="container">
-        <h2 className="text-center">My Approach</h2>
-        <hr />
+      <div className="container text-center p-5">
+        <h2 className="section-title">My Approach</h2>
       </div>
 
-      <PictureGrid />
+      <div class="container projects-container p-0">
+        <ProjectPanel
+          cssImgClass="responsive-image"
+          title="Responsive"
+          description="My designs work on all screen sizes from desktop to mobile."
+          panelType="top-left-panel"
+        />
+        <ProjectPanel
+          cssImgClass="dynamic-image"
+          title="Dynamic"
+          description="Motion creates engagement which is the key to an effective website."
+          panelType="bottom-left-panel"
+        />
+        <ProjectPanel 
+          cssImgClass="stylish-image"
+          title="Stylish"
+          description="First impressions, especially on the web, are everything."
+          panelType="top-left-panel"
+        />
+        <ProjectPanel 
+          cssImgClass="simple-image"
+          title="Simple"
+          description="Less is more. Only add elements that serve a purpose."
+          panelType="bottom-left-panel"
+        />
+         
+      </div>
 
       <div className="container skills-container">
 
             <div class="text-center">
-              <h3>About</h3>
+              <h2 class="section-title">About</h2>
             </div>
 
             <p class="bio">
@@ -29,7 +55,7 @@ const AboutSection = () => {
        
          
             <div class="text-center mt-5">
-              <h3>Skills</h3>
+              <h2 class="section-title">Skills</h2>
             </div>
 
             <ul class="skills">
