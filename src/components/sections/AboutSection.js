@@ -12,8 +12,7 @@ const AboutSection = () => {
       <PictureGrid />
 
       <div className="container skills-container">
-        <div class="row">
-          <div class="col-md-6 col-12">
+
             <div class="text-center">
               <h3>About</h3>
             </div>
@@ -27,9 +26,9 @@ const AboutSection = () => {
                 Let's work together.
               </a>
             </p>
-          </div>
-          <div class="col-md-6 col-12 skills-col">
-            <div class="text-center">
+       
+         
+            <div class="text-center mt-5">
               <h3>Skills</h3>
             </div>
 
@@ -53,8 +52,7 @@ const AboutSection = () => {
                 </div>
               </div>
             </ul>
-          </div>
-        </div>
+       
       </div>
     </section>
   );

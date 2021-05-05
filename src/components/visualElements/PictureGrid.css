@@ -6,6 +6,6 @@
 
 @media (max-width: 991px) {
   .picture-grid {
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
   }
 }

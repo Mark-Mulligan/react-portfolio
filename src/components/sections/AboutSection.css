@@ -10,6 +10,7 @@
 
 .skills-container {
   margin-top: 75px;
+  max-width: 600px;
 }
 
 .skills-container h3{
