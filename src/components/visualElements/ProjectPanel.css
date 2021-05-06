@@ -21,12 +21,12 @@
 .project-panel a {
   font-size: 1rem;
   padding-bottom: 3px;
-  color: #72cdda;
+  color: rgb(5, 5, 5);
 }
 
 .project-panel a:hover {
-  border-bottom: 1px solid #72cdda;
-  color: #72cdda;
+  border-bottom: 1px solid rgb(5, 5, 5);;
+  color: rgb(5, 5, 5);;
 }
 
 .project-image {
@@ -42,7 +42,7 @@
   top: 0;
   height: 100%;
   width: 50%;
-  background:rgba(14, 52, 77, 0.8);
+  background:rgba(80, 80, 80,0.8);
 }
 
 .top-left-panel {

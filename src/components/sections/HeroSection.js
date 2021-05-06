@@ -46,13 +46,24 @@ const HeroSection = () => {
   };
 
   useEffect(() => {
-    animatedImage(); 
+    animatedImage();
   }, []);
 
   return (
     <div className="hero-section">
-      
-           
+
+      <div className="triangle-container">
+        <h1 className="name">Mark Mulligan</h1>
+        <h1 className="title">Web Developer</h1>
+        <div class="triangle t1"></div>
+        <div class="triangle-down t2"></div>
+        <div class="triangle t3"></div>
+        <div class="triangle-down t4"></div>
+        <div class="triangle t5"></div>
+        <div class="triangle-down t6"></div>
+        <div class="triangle t7"></div>
+      </div>
+
     </div>
   );
 };
