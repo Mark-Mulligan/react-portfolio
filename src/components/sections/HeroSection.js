@@ -55,41 +55,45 @@ const HeroSection = () => {
     <div className="hero-section">
       <h1 className="name">Mark Mulligan</h1>
       <h1 className="title">Web Developer</h1>
+      <div className="quote-container">
+        <p>Making the simple complicated is commonplace. Making the complicated simple, that's creativity.</p>
+        <p>- Charles Mingus</p>
+      </div>
       <div class="triangle t1 t-background">
-        <img className="t1-img slow" src={space} />
+        <img className="t1-img t-img slow" src={space} />
       </div>
       <div className="triangle-down t2 t-background">
-        <img className="t2-img slow" src={space} />
+        <img className="t2-img t-img  slow" src={space} />
       </div>
       <div className="triangle t3">
-        <img className="t3-img slow" src={space} />
+        <img className="t3-img t-img slow" src={space} />
       </div>
       <div className="triangle-down t4">
-        <img className="t4-img slow" src={space} />
+        <img className="t4-img t-img slow" src={space} />
       </div>
       <div class="triangle t5 t-background">
-        <img className="t5-img slow" src={space} />
+        <img className="t5-img t-img  slow" src={space} />
       </div>
       <div class="triangle-down t6 t-background">
-        <img className="t6-img slow" src={space} />
+        <img className="t6-img t-img slow" src={space} />
       </div>
       <div class="triangle t7 t-background">
-        <img className="t7-img slow" src={space} />
+        <img className="t7-img t-img slow" src={space} />
       </div>
       <div class="triangle-down t8 t-background">
-        <img className="t8-img slow" src={space} />
+        <img className="t8-img t-img slow" src={space} />
       </div>
       <div class="triangle t9 t-background">
-        <img className="t9-img slow" src={space} />
+        <img className="t9-img t-img slow" src={space} />
       </div>
       <div class="triangle-down t10 t-background">
-        <img className="t10-img slow" src={space} />
+        <img className="t10-img t-img slow" src={space} />
       </div>
       <div class="triangle t11 t-background">
-        <img className="t11-img slow" src={space} />
+        <img className="t11-img t-img slow" src={space} />
       </div>
       <div class="triangle-down t12 t-background">
-        <img className="t12-img slow" src={space} />
+        <img className="t12-img t-img slow" src={space} />
       </div>
     </div>
   );

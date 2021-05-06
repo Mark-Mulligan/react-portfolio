@@ -5,11 +5,24 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(0.25turn, rgb(45, 45, 45), grey, rgb(45, 45, 45));
-  /* background-image: url("../../images/space.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; */
   overflow: hidden;
+}
+
+.triangle {
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.triangle-down {
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  position: absolute;
+}
+
+.t-img {
+  position: absolute;
+  object-fit: cover;
+  height: 1000px;
+  width: 700px;
 }
 
 .name {
@@ -26,14 +39,12 @@
   top: 340px;
 }
 
-.triangle {
+.quote-container {
   position: absolute;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
-
-.triangle-down {
-  clip-path: polygon(100% 0, 0 0, 50% 100%);
-  position: absolute;
+  width: 280px;
+  top: 785px;
+  left: 47%;
+  font-size: 18px;
 }
 
 .t1 {
@@ -45,12 +56,8 @@
 }
 
 .t1-img {
-  position: absolute;
-  object-fit: cover;
   left: -118px;
   top: -48px;
-  height: 1000px;
-  width: 700px;
 }
 
 .side-marker {
@@ -78,12 +85,8 @@
 }
 
 .t2-img {
-  position: absolute;
-  object-fit: cover;
   left: -185px;
   top: -32px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t3 {
@@ -94,12 +97,8 @@
 }
 
 .t3-img {
-  position: absolute;
-  object-fit: cover;
   left: -300px;
   top: -20px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t4 {
@@ -110,12 +109,8 @@
 }
 
 .t4-img {
-  position: absolute;
-  object-fit: cover;
   left: -500px;
   top: -77px;
-  height: 700px;
-  width: 700px;
 }
 
 .t5 {
@@ -126,12 +121,8 @@
 }
 
 .t5-img {
-  position: absolute;
-  object-fit: cover;
   left: -590px;
   top: -92px;
-  height: 700px;
-  width: 700px;
 }
 
 .t6 {
@@ -142,12 +133,8 @@
 }
 
 .t6-img {
-  position: absolute;
-  object-fit: cover;
   left: -300px;
   top: -280px;
-  height: 1000px;
-  width: 700px;
 }
 
 
@@ -159,12 +146,8 @@
 }
 
 .t7-img {
-  position: absolute;
-  object-fit: cover;
   left: -230px;
   top: -330px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t8 {
@@ -175,12 +158,8 @@
 }
 
 .t8-img {
-  position: absolute;
-  object-fit: cover;
   left: -190px;
   top: -480px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t9 {
@@ -191,12 +170,8 @@
 }
 
 .t9-img {
-  position: absolute;
-  object-fit: cover;
   left: -90px;
   top: -490px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t10 {
@@ -207,12 +182,8 @@
 }
 
 .t10-img {
-  position: absolute;
-  object-fit: cover;
   left: -90px;
   top: -657px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t11 {
@@ -223,12 +194,8 @@
 }
 
 .t11-img {
-  position: absolute;
-  object-fit: cover;
   left: -90px;
   top: -792px;
-  height: 1000px;
-  width: 700px;
 }
 
 .t12 {
@@ -239,12 +206,183 @@
 }
 
 .t12-img {
-  position: absolute;
-  object-fit: cover;
   left: -100px;
   top: -914px;
-  height: 1000px;
-  width: 700px;
+}
+
+@media (max-width: 650px) {
+  .t-img {
+    height: 1000px;
+    width: 700px;
+  }
+  
+  .name {
+    position: absolute;
+    color: black;
+    left: calc(47% - 140px);
+    top: 290px;
+  }
+  
+  .title {
+    position: absolute;
+    color: black;
+    left: calc(47% - 140px);
+    top: 340px;
+  }
+  
+  .quote-container {
+    position: absolute;
+    width: 200px;
+    top: 785px;
+    left: calc(47% - 35px);
+    font-size: 18px;
+  }
+  
+  .t1 {
+    left: calc(47% - 205px);
+    top: 106px;
+    background-image: url("../../images/space.jpg");
+    height: 100px;
+    width: 120px;
+  }
+  
+  .t1-img {
+    left: -95px;
+    top: -48px;
+  }
+  
+  .t2 {
+    left: calc(47% - 144px);
+    top: 90px;
+    height: 200px;
+    width: 240px;
+  }
+  
+  .t2-img {
+    left: -156px;
+    top: -32px;
+  }
+  
+  .t3 {
+    height: 190px;
+    width: 228px;
+    top: 78px;
+    left: 47%;
+  }
+  
+  .t3-img {
+    left: -300px;
+    top: -20px;
+  }
+  
+  .t4 {
+    height: 110px;
+    width: 132px;
+    left: calc(47% + 160px);
+    top: 135px;
+  }
+  
+  .t4-img {
+    left: -460px;
+    top: -77px;
+  }
+  
+  .t5 {
+    height: 75px;
+    width: 90px;
+    left: calc(47% + 134px);
+    top: 305px;
+  }
+  
+  .t5-img {
+    left: -434px;
+    top: -247px;
+  }
+  
+  .t6 {
+    height: 160px;
+    width: 192px;
+    left: calc(47% + 30px);
+    top: 390px;
+  }
+  
+  .t6-img {
+    left: -330px;
+    top: -332px;
+  }
+  
+  
+  .t7 {
+    height: 140px;
+    width: 168px;
+    left: calc(47% - 70px);
+    top: 388px;
+  }
+  
+  .t7-img {
+    left: -230px;
+    top: -330px;
+  }
+  
+  .t8 {
+    height: 180px;
+    width: 216px;
+    left: calc(47% - 110px);
+    top: 538px;
+  }
+  
+  .t8-img {
+    left: -190px;
+    top: -480px;
+  }
+  
+  .t9 {
+    height: 160px;
+    width: 192px;
+    left: calc(47% - 210px);
+    top: 548px;
+  }
+  
+  .t9-img {
+    left: -90px;
+    top: -490px;
+  }
+  
+  .t10 {
+    height: 160px;
+    width: 198px;
+    left: calc(47% - 210px);
+    top: 715px;
+  }
+  
+  .t10-img {
+    left: -90px;
+    top: -657px;
+  }
+  
+  .t11 {
+    height: 120px;
+    width: 144px;
+    left: calc(47% - 210px);
+    top: 850px;
+  }
+  
+  .t11-img {
+    left: -90px;
+    top: -792px;
+  }
+  
+  .t12 {
+    height: 160px;
+    width: 192px;
+    left: calc(47% - 200px);
+    top: 978px;
+  }
+  
+  .t12-img {
+    left: -100px;
+    top: -914px;
+  }
 }
 
 

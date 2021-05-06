@@ -21,7 +21,7 @@ function App() {
     });
 
     new Rellax(".slow", { // <---- Via class name
-      speed: -3,
+      speed: -4,
       center: false,
       wrapper: null,
       round: true,
