@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <section className="about-section">
       <div className="container text-center p-5">
-        <h2 className="section-title">My Approach</h2>
+        <h2 className="section-title off-white">My Approach</h2>
       </div>
 
       <div class="container projects-container p-0">
@@ -40,10 +40,10 @@ const AboutSection = () => {
       <div className="container skills-container">
 
             <div class="text-center">
-              <h2 class="section-title">About</h2>
+              <h2 class="section-title off-white">About</h2>
             </div>
 
-            <p class="bio">
+            <p class="bio off-white">
               Hey, I'm Mark, a Front End Developer based in Dallas TX. I love to
               build amazing websites with simple, intuitive user interfaces. I
               am always looking for new things to learn and projects to take on.
@@ -55,11 +55,11 @@ const AboutSection = () => {
        
          
             <div class="text-center mt-5">
-              <h2 class="section-title">Skills</h2>
+              <h2 class="section-title off-white">Skills</h2>
             </div>
 
-            <ul class="skills">
-              <div class="d-flex justify-content-center">
+            <ul class="skills off-white">
+              <div class="d-flex justify-content-center off-white">
                 <div>
                   <li>React.js</li>
                   <li>Javascript</li>

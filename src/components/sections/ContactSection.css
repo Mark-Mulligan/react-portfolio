@@ -1,5 +1,5 @@
 .contact-title-container {
-  background: linear-gradient(#07161f, black);
+  background: linear-gradient(#0c1e2f, black);
 }
 
 .bottom {
@@ -16,7 +16,7 @@
   left: 75%;
   width: 25%;
   height: 100%;
-  background: rgba(14, 52, 77, 0.8);
+  background: rgba(0, 0, 0,0.8);
 }
 
 .contact-links {
@@ -36,7 +36,7 @@
   height: 100%;
   right: 25%;
   width: 50%;
-  background: rgba(14, 52, 77, 0.8);
+  background: rgba(0, 0, 0,0.8);
   z-index: -1;
 }
 
@@ -45,7 +45,7 @@
   height: 100%;
   width: 100%;
   z-index: -4;
-  filter: brightness(0.5);
+  /* filter: brightness(0.5); */
   object-fit: cover;
   object-position: center;
 }

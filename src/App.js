@@ -32,7 +32,6 @@ function App() {
   return (
     <div class="app">
       <HeroSection />
-      <QuoteSection />
       <AboutSection />
       <ProjectsSection />
       <ContactSection />

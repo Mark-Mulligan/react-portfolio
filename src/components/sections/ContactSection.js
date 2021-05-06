@@ -3,7 +3,7 @@ import background from "../../images/computerBackground.jpg";
 
 const ContactSection = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section off-white">
       <div className="container-fluid contact-title-container text-center p-5">
         <h2 class="section-title">Contact</h2>
       </div>
@@ -25,12 +25,11 @@ const ContactSection = () => {
           </div>
           
         </ul>
-        <div className="right-triangle"></div>
         <div className="center-triangle"></div>
-        <img class="contact-img" src={background} />
+        <img class="contact-img" src={background} /> 
       </div>
     </section>
   )
 }
-
+/* <img class="contact-img" src={background} /> */
 export default ContactSection;
