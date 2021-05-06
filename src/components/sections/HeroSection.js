@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import anime from "animejs";
+import mountains from "../../images/mountainBackground.jpg";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -51,19 +52,20 @@ const HeroSection = () => {
 
   return (
     <div className="hero-section">
-
-      <div className="triangle-container">
-        <h1 className="name">Mark Mulligan</h1>
-        <h1 className="title">Web Developer</h1>
-        <div class="triangle t1"></div>
-        <div class="triangle-down t2"></div>
-        <div class="triangle t3"></div>
-        <div class="triangle-down t4"></div>
-        <div class="triangle t5"></div>
-        <div class="triangle-down t6"></div>
-        <div class="triangle t7"></div>
+      <div className="side-marker"></div>
+      <div className="right-marker"></div>
+      <h1 className="name">Mark Mulligan</h1>
+      <h1 className="title">Web Developer</h1>
+      <div class="triangle t1 t-background">
+        <div class="test-background"></div>
       </div>
-
+      <div className="triangle-down t2 t-background"></div>
+      <div class="triangle t3 t-background"></div>
+      <div class="triangle-down t4 t-background"></div>
+      <div class="triangle t5 t-background"></div>
+      <div class="triangle-down t6 t-background"></div>
+      <div class="triangle t7 t-background"></div>
+      <div class="triangle-down t8 t-background"></div>
     </div>
   );
 };

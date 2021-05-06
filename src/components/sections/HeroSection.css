@@ -4,55 +4,75 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.triangle-container {
-  width: 800px;
-  height: 600px;
-  position: relative;
-  border: 2px solid black;
+  background: linear-gradient(0.25turn, rgb(45, 45, 45), grey, rgb(45, 45, 45));
+  overflow: hidden;
 }
 
 .name {
   position: absolute;
   color: black;
-  top: 260px;
-  left: 50px;
+  left: calc(47% - 300px);
+  top: calc(10% + 205px);
 }
 
 .title {
   position: absolute;
   color: black;
-  top: 300px;
-  left: 50px;
+  left: calc(47% - 300px);
+  top: calc(10% + 252px);
 }
 
 .triangle {
   position: absolute;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  z-index: -1;
 }
 
 .triangle-down {
   clip-path: polygon(100% 0, 0 0, 50% 100%);
   position: absolute;
-  z-index: -1;
+}
+
+.t-background {
+  background-image: url("../../images/space.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .t1 {
-  top: 70px;
-  left: 205px;
+  left: calc(47% - 182px);
+  top: calc(10% + 28px);
   height: 100px;
   width: 120px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
+}
+
+.side-marker {
+  position: absolute;
+  left: calc(47% - 300px);
+  top: calc(10% - 20px);
+  height: 500px;
+  border: 2px solid black;
+}
+
+.right-marker {
+  position: absolute;
+  left: calc(47% + 400px);
+  top: calc(10% - 20px);
+  height: 500px;
+  border: 2px solid black;
+
+}
+
+.test-background {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 3px solid white;
+  z-index: 2;
 }
 
 .t2 {
-  top: 60px;
-  left: 272px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
+  left: calc(47% - 115px);
+  top: calc(10% + 20px);
   height: 200px;
   width: 240px;
 }
@@ -60,47 +80,44 @@
 .t3 {
   height: 250px;
   width: 300px;
-  top: 50px;
-  left: 380px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
+  top: 10%;
+  left: 47%;
 }
 
 .t4 {
   height: 110px;
   width: 132px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
-  left: 576px;
-  top: 110px;
+  left: calc(47% + 200px);
+  top: calc(10% + 60px);
 }
 
 .t5 {
   height: 75px;
   width: 90px;
-  background-color: white;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
-  left: 665px;
-  top: 125px;
+  left: calc(47% + 290px);
+  top: calc(10% + 70px);
 }
 
 .t6 {
   height: 250px;
   width: 300px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
-  left: 380px;
-  top: 308px;
+  left: calc(47%);
+  top: calc(10% + 260px);
 }
 
 .t7 {
   height: 140px;
   width: 168px;
-  background-image: url("../../images/mountainBackground.jpg");
-  background-size: cover;
-  left: 338px;
-  top: 400px;
+  left: calc(47% - 70px);
+  top: calc(10% + 310px);
 }
+
+.t8 {
+  height: 180px;
+  width: 216px;
+  left: calc(47% - 110px);
+  top: calc(10% + 460px);
+}
+
 
 
