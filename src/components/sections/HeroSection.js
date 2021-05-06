@@ -57,15 +57,32 @@ const HeroSection = () => {
       <h1 className="name">Mark Mulligan</h1>
       <h1 className="title">Web Developer</h1>
       <div class="triangle t1 t-background">
-        <div class="test-background"></div>
+        <img className="t1-img slow" src={mountains} />
       </div>
-      <div className="triangle-down t2 t-background"></div>
-      <div class="triangle t3 t-background"></div>
-      <div class="triangle-down t4 t-background"></div>
-      <div class="triangle t5 t-background"></div>
-      <div class="triangle-down t6 t-background"></div>
-      <div class="triangle t7 t-background"></div>
-      <div class="triangle-down t8 t-background"></div>
+      <div className="triangle-down t2 t-background">
+        <img className="t2-img slow" src={mountains} />
+      </div>
+      <div className="triangle t3 t-background">
+        <img className="t3-img slow" src={mountains} />
+      </div>
+      <div className="triangle-down t4 t-background">
+        <img className="t4-img slow" src={mountains} />
+      </div>
+      <div class="triangle t5 t-background">
+        <img className="t5-img slow" src={mountains} />
+      </div>
+      <div class="triangle-down t6 t-background">
+        <img className="t6-img slow" src={mountains} />
+      </div>
+      <div class="triangle t7 t-background">
+        <img className="t7-img slow" src={mountains} />
+      </div>
+      <div class="triangle-down t8 t-background">
+        <img className="t8-img slow" src={mountains} />
+      </div>
+      <div class="triangle t9 t-background">
+        <img className="t9-img slow" src={mountains} />
+      </div>
     </div>
   );
 };

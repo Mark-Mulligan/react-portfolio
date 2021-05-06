@@ -4,7 +4,6 @@ const QuoteSection = () => {
   return (
     <section className="quote-section">
       <div className="quote-container">
-        <div className="quote-triangle"></div>
         <h2>Making the <span class="light-blue">simple</span> complicated</h2>
         <h2>is commonplace.</h2>
         <h2>Make the complicated <span class="light-blue">simple</span>,</h2>

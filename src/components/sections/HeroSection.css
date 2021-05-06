@@ -1,10 +1,14 @@
 .hero-section {
-  min-height: 100vh;
+  min-height: 778px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(0.25turn, rgb(45, 45, 45), grey, rgb(45, 45, 45));
+  /* background-image: url("../../images/space.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
   overflow: hidden;
 }
 
@@ -33,23 +37,35 @@
 }
 
 .t-background {
-  background-image: url("../../images/space.jpg");
+  /* background-image: url("../../images/space.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center; */
+  /* background: rgba(5, 5, 5, 0.5) */
 }
 
 .t1 {
   left: calc(47% - 182px);
   top: calc(10% + 28px);
+  background-image: url("../../images/space.jpg");
   height: 100px;
   width: 120px;
+}
+
+.t1-img {
+  position: absolute;
+  object-fit: cover;
+  left: -118px;
+  top: -48px;
+  height: 700px;
+  width: 700px;
 }
 
 .side-marker {
   position: absolute;
   left: calc(47% - 300px);
   top: calc(10% - 20px);
-  height: 500px;
+  height: 700px;
   border: 2px solid black;
 }
 
@@ -62,14 +78,6 @@
 
 }
 
-.test-background {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  border: 3px solid white;
-  z-index: 2;
-}
-
 .t2 {
   left: calc(47% - 115px);
   top: calc(10% + 20px);
@@ -77,11 +85,29 @@
   width: 240px;
 }
 
+.t2-img {
+  position: absolute;
+  object-fit: cover;
+  left: -185px;
+  top: -20px;
+  height: 700px;
+  width: 700px;
+}
+
 .t3 {
   height: 250px;
   width: 300px;
-  top: 10%;
+  top: 78px;
   left: 47%;
+}
+
+.t3-img {
+  position: absolute;
+  object-fit: cover;
+  left: -300px;
+  top: -20px;
+  height: 700px;
+  width: 700px;
 }
 
 .t4 {
@@ -91,11 +117,29 @@
   top: calc(10% + 60px);
 }
 
+.t4-img {
+  position: absolute;
+  object-fit: cover;
+  left: -500px;
+  top: -80px;
+  height: 700px;
+  width: 700px;
+}
+
 .t5 {
   height: 75px;
   width: 90px;
   left: calc(47% + 290px);
   top: calc(10% + 70px);
+}
+
+.t5-img {
+  position: absolute;
+  object-fit: cover;
+  left: -590px;
+  top: -90px;
+  height: 700px;
+  width: 700px;
 }
 
 .t6 {
@@ -105,6 +149,16 @@
   top: calc(10% + 260px);
 }
 
+.t6-img {
+  position: absolute;
+  object-fit: cover;
+  left: -300px;
+  top: -280px;
+  height: 700px;
+  width: 700px;
+}
+
+
 .t7 {
   height: 140px;
   width: 168px;
@@ -112,11 +166,45 @@
   top: calc(10% + 310px);
 }
 
+.t7-img {
+  position: absolute;
+  object-fit: cover;
+  left: -230px;
+  top: -330px;
+  height: 700px;
+  width: 700px;
+}
+
 .t8 {
   height: 180px;
   width: 216px;
   left: calc(47% - 110px);
   top: calc(10% + 460px);
+}
+
+.t8-img {
+  position: absolute;
+  object-fit: cover;
+  left: -190px;
+  top: -480px;
+  height: 700px;
+  width: 700px;
+}
+
+.t9 {
+  height: 160px;
+  width: 192px;
+  left: calc(47% - 210px);
+  top: calc(10% + 470px);
+}
+
+.t9-img {
+  position: absolute;
+  object-fit: cover;
+  left: -90px;
+  top: -490px;
+  height: 700px;
+  width: 700px;
 }
 
 

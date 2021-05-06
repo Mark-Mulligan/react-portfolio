@@ -11,7 +11,7 @@ import ContactSection from "./components/sections/ContactSection";
 function App() {
 
   useEffect(() => {
-    new Rellax(".slow", { // <---- Via class name
+    new Rellax(".fast", { // <---- Via class name
       speed: 3,
       center: false,
       wrapper: null,
