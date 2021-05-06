@@ -3,7 +3,6 @@ import Rellax from "rellax";
 import './App.css';
 import "./components/sections/HeroSection";
 import HeroSection from './components/sections/HeroSection';
-import QuoteSection from "./components/sections/QuoteSection";
 import AboutSection from "./components/sections/AboutSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import ContactSection from "./components/sections/ContactSection";

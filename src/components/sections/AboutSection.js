@@ -1,5 +1,4 @@
 import "./AboutSection.css";
-import PictureGrid from "../visualElements/PictureGird";
 import ProjectPanel from "../visualElements/ProjectPanel";
 
 const AboutSection = () => {

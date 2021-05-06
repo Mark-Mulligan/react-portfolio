@@ -50,7 +50,6 @@
 .t1 {
   left: calc(47% - 182px);
   top: 106px;
-  background-image: url("../../images/space.jpg");
   height: 100px;
   width: 120px;
 }
@@ -211,37 +210,26 @@
 }
 
 @media (max-width: 650px) {
-  .t-img {
-    height: 1000px;
-    width: 700px;
-  }
   
   .name {
-    position: absolute;
-    color: black;
     left: calc(47% - 140px);
     top: 290px;
   }
   
   .title {
-    position: absolute;
-    color: black;
     left: calc(47% - 140px);
     top: 340px;
   }
   
   .quote-container {
-    position: absolute;
     width: 200px;
     top: 785px;
     left: calc(47% - 35px);
-    font-size: 18px;
   }
   
   .t1 {
     left: calc(47% - 205px);
     top: 106px;
-    background-image: url("../../images/space.jpg");
     height: 100px;
     width: 120px;
   }
