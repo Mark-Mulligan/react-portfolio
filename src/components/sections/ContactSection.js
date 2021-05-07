@@ -1,5 +1,5 @@
 import "./ContactSection.css";
-import background from "../../images/computerBackground.jpg";
+import background from "../../images/computerBackground2.jpg";
 
 const ContactSection = () => {
   return (
