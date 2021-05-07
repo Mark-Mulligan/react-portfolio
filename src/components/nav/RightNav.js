@@ -21,17 +21,16 @@ const Ul = styled.ul`
     padding: 10px 20px;
     font-size: 17px;
   }
-    transform: ${({ open }) => open ? 'translateX(-300px)' : 'translateX(0px)'}; 
+    transform: ${({ open }) => open ? 'translateY(100vh)' : 'translateY(0)'}; 
     z-index: 2;
     flex-flow: column nowrap;
     background-color: rgba(80, 80, 80, 0.9);
     position: fixed;
-    top: 0;
-    right: -300px;
+    top: -100vh;
     height: 100vh;
-    width: 300px;
+    width: 100%;
     padding-top: 3.5rem;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
     li {
       color: #fff;
     }
