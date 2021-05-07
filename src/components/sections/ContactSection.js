@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section className="contact-section off-white">
       <div className="container-fluid contact-title-container text-center p-5">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title" id="contact">Contact</h2>
       </div>
       <div className="bottom">
         <ul className="contact-links">

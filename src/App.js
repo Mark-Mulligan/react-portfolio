@@ -3,6 +3,7 @@ import Rellax from "rellax";
 import LazyLoad from "react-lazyload";
 import "./App.css";
 import "./components/sections/HeroSection";
+import Navbar from "./components/nav/Navbar";
 import HeroSection from "./components/sections/HeroSection";
 import AboutSection from "./components/sections/AboutSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
@@ -22,9 +23,9 @@ function App() {
   }, []);
   return (
     <div class="app">
-        <HeroSection />
-        <AboutSection />
-    
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
 
       <LazyLoad height={200} offset={100}>
         <ProjectsSection />
