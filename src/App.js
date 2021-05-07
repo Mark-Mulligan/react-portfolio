@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Rellax from "rellax";
-import LazyLoad from "react-lazyload";
 import "./App.css";
 import "./components/sections/HeroSection";
 import Navbar from "./components/nav/Navbar";
@@ -26,14 +25,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutSection />
-
-      <LazyLoad height={200} offset={100}>
-        <ProjectsSection />
-      </LazyLoad>
-
-      <LazyLoad height={200} offset={100}>
-        <ContactSection />
-      </LazyLoad>
+      <ProjectsSection />
+      <ContactSection />
     </div>
   );
 }
