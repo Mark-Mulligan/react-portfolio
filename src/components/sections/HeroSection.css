@@ -57,6 +57,8 @@
 .t1-img {
   left: -118px;
   top: -48px;
+  height: 250px;
+  width: 350px;
 }
 
 .side-marker {
@@ -108,8 +110,10 @@
 }
 
 .t4-img {
-  left: -500px;
+  left: -150px;
   top: -77px;
+  height: 250px;
+  width: 350px;
 }
 
 .t5 {
@@ -120,8 +124,10 @@
 }
 
 .t5-img {
-  left: -590px;
+  left: -240px;
   top: -92px;
+  height: 250px;
+  width: 350px;
 }
 
 .t6 {

@@ -1,4 +1,6 @@
-import space from "../../images/spaceCompressed2.jpg";
+import space from "../../images/spaceCompressed3.jpg";
+import row1col1 from "../../images/space-row-1-col-1.jpg";
+import row1col2 from "../../images/space-row-1-col-2.jpg";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -12,7 +14,7 @@ const HeroSection = () => {
         <p>- Charles Mingus</p>
       </div>
       <div class="triangle t1 t-background">
-        <img className="t1-img t-img slow" alt="" src={space} />
+        <img className="t1-img t-img slow" alt="" src={row1col1} />
       </div>
       <div className="triangle-down t2 t-background">
         <img className="t2-img t-img  slow" alt="" src={space} />
@@ -21,10 +23,10 @@ const HeroSection = () => {
         <img className="t3-img t-img slow" alt="" src={space} />
       </div>
       <div className="triangle-down t4">
-        <img className="t4-img t-img slow" alt="" src={space} />
+        <img className="t4-img t-img slow" alt="" src={row1col2} />
       </div>
       <div class="triangle t5 t-background">
-        <img className="t5-img t-img  slow" alt="" src={space} />
+        <img className="t5-img t-img  slow" alt="" src={row1col2} />
       </div>
       <div class="triangle-down t6 t-background">
         <img className="t6-img t-img slow" alt="" src={space} />

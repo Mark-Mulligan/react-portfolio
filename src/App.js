@@ -1,34 +1,15 @@
-import React, { useEffect, Suspense } from "react";
+import React, { useEffect } from "react";
 import Rellax from "rellax";
+import LazyLoad from "react-lazyload";
 import "./App.css";
 import "./components/sections/HeroSection";
 import HeroSection from "./components/sections/HeroSection";
-/* import AboutSection from "./components/sections/AboutSection"; */
-/* import ProjectsSection from "./components/sections/ProjectsSection"; */
-/* import ContactSection from "./components/sections/ContactSection"; */
-
-const AboutSection = React.lazy(() =>
-  import("./components/sections/AboutSection")
-);
-const ProjectsSection = React.lazy(() =>
-  import("./components/sections/ProjectsSection")
-);
-const ContactSection = React.lazy(() =>
-  import("./components/sections/ContactSection")
-);
+import AboutSection from "./components/sections/AboutSection";
+import ProjectsSection from "./components/sections/ProjectsSection";
+import ContactSection from "./components/sections/ContactSection";
 
 function App() {
   useEffect(() => {
-    new Rellax(".fast", {
-      // <---- Via class name
-      speed: 3,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
     new Rellax(".slow", {
       // <---- Via class name
       speed: -4,
@@ -41,18 +22,17 @@ function App() {
   }, []);
   return (
     <div class="app">
-      <HeroSection />
-      <Suspense fallback={<div>Loading...</div>}>
+        <HeroSection />
         <AboutSection />
-      </Suspense>
+    
 
-      <Suspense fallback={<div>Loading...</div>}>
+      <LazyLoad height={200} offset={100}>
         <ProjectsSection />
-      </Suspense>
+      </LazyLoad>
 
-      <Suspense fallback={<div>Loading...</div>}>
+      <LazyLoad height={200} offset={100}>
         <ContactSection />
-      </Suspense>
+      </LazyLoad>
     </div>
   );
 }
