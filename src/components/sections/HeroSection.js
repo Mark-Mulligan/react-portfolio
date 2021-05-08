@@ -11,10 +11,10 @@ const HeroSection = () => {
 
   return (
     <div className="hero-section">
-      <h1 className="name">Mark Mulligan</h1>
-      <h1 className="title">Web Developer</h1>
+      <h1 className="name">MARK MULLIGAN</h1>
+      <h1 className="title">WEB DEVELOPER</h1>
       <div className="quote-container">
-        <p>Making the simple complicated is commonplace. Making the complicated simple, that's creativity.</p>
+        <p>Making the simple complicated is commonplace. Making the complicated simple, that's <span className="orange">creativity.</span></p>
         <p>- Charles Mingus</p>
       </div>
       <div class="triangle t1 t-background">

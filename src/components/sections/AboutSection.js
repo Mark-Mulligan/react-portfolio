@@ -45,12 +45,12 @@ const AboutSection = () => {
             <p class="bio off-white">
               Hey, I'm Mark, a Front End Developer based in Dallas TX. I love to
               build amazing websites with simple, intuitive user interfaces. I
-              am always looking for new things to learn and projects to take on.
-              <a href="#" class="light-blue">
-                {" "}
+              am always looking for new things to learn and projects to take on. {" "}
+              <a href="#contact" class="light-blue">
                 Let's work together.
               </a>
             </p>
+            
        
          
             <div class="text-center mt-5">

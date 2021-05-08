@@ -41,6 +41,10 @@ a:hover {
   color: #72cdda;
 }
 
+.orange {
+  color: #F99130;
+}
+
 .section-title {
   border-bottom: 2px solid;
   display: inline-block;

@@ -13,13 +13,11 @@ const ContactSection = () => {
       <div className="bottom">
         <ul className="contact-links">
           <div class="links-container">
-            <li class="linkedin">
+          <li class="email">
               <a
-                href="https://www.linkedin.com/in/mark-mulligan-50"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:mark.mulligan.jr1@gmail.com"
               >
-                Linkedin
+                Email
               </a>
             </li>
             <li class="github">
@@ -31,6 +29,16 @@ const ContactSection = () => {
                 Github
               </a>
             </li>
+            <li class="linkedin">
+              <a
+                href="https://www.linkedin.com/in/mark-mulligan-50"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Linkedin
+              </a>
+            </li>
+            
             <li class="facebook">
               <a
                 href="https://www.facebook.com/mark.mulligan.5264"

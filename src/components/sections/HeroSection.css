@@ -28,23 +28,30 @@
 .name {
   position: absolute;
   color: black;
-  left: calc(47% - 295px);
+  left: calc(47% - 390px);
   top: 280px;
+  font-size: 2.5rem;
+  font-family: 'Expletus Sans', cursive;
+  font-weight: bold;
 }
 
 .title {
   position: absolute;
   color: black;
-  left: calc(47% - 295px);
+  left: calc(47% - 390px);
   top: 340px;
+  font-size: 2.5rem;
+  font-family: 'Expletus Sans', cursive;
+  font-weight: bold;
 }
 
 .quote-container {
   position: absolute;
   width: 280px;
-  top: 785px;
+  top: 745px;
   left: 47%;
-  font-size: 18px;
+  font-size: 1.4rem;
+  font-style: italic;
 }
 
 .t1 {
@@ -59,23 +66,6 @@
   top: -48px;
   height: 250px;
   width: 350px;
-}
-
-.side-marker {
-  position: absolute;
-  left: calc(47% - 300px);
-  top: calc(10% - 20px);
-  height: 700px;
-  border: 2px solid black;
-}
-
-.right-marker {
-  position: absolute;
-  left: calc(47% + 400px);
-  top: calc(10% - 20px);
-  height: 500px;
-  border: 2px solid black;
-
 }
 
 .t2 {
@@ -229,22 +219,27 @@
   width: 350px;
 }
 
-@media (max-width: 650px) {
-  
+@media (max-width: 900px) {
+  .name {
+    left: calc(47% - 330px);
+  }
+
+  .title {
+    left: calc(47% - 330px);
+  }
+}
+
+@media (max-width: 730px) {
   .name {
     left: calc(47% - 140px);
-    top: 290px;
+    top: 292px;
+    font-size: 2.1rem;
   }
   
   .title {
     left: calc(47% - 140px);
     top: 340px;
-  }
-  
-  .quote-container {
-    width: 200px;
-    top: 785px;
-    left: calc(47% - 35px);
+    font-size: 2.1rem;
   }
   
   .t1 {
@@ -317,5 +312,21 @@
   .t6-img {
     left: -330px;
     top: -332px;
+  }
+}
+
+@media (max-width: 500px) {
+  .name {
+    left: calc(47% - 110px);
+  }
+  
+  .title {
+    left: calc(47% - 110px);
+  }
+
+  .quote-container {
+    width: 200px;
+    top: 785px;
+    left: calc(47% - 35px);
   }
 }

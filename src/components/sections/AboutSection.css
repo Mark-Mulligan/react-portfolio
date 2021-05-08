@@ -10,6 +10,9 @@
 .skills-container {
   margin-top: 75px;
   max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bio {

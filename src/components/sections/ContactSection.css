@@ -56,6 +56,10 @@
   border-bottom: 2px solid;
 }
 
+.contact-links a:hover {
+  color: #A247B0;
+}
+
 @media (max-width: 991px) {
   .bottom {
     height: 350px;
