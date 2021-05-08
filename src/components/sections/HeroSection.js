@@ -4,6 +4,7 @@ import row1col2 from "../../images/space-row1-col2-(2X4).jpg";
 import row1 from "../../images/space-row1-(1X3).jpg";
 import row2col1 from "../../images/space-row2-col1-(2X2).jpg";
 import tophalf from "../../images/space-row1-col1-(1X2).jpg";
+import lefthalf from "../../images/space-row1-col1-(2X1).jpg";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -29,7 +30,7 @@ const HeroSection = () => {
         <img className="t4-img t-img slow" alt="" src={row1col2} />
       </div>
       <div class="triangle t5 t-background">
-        <img className="t5-img t-img  slow" alt="" src={row1col2} />
+        <img className="t5-img t-img  slow" alt="" src={row1} />
       </div>
       <div class="triangle-down t6 t-background">
         <img className="t6-img t-img slow" alt="" src={space} />
@@ -41,10 +42,10 @@ const HeroSection = () => {
         <img className="t8-img t-img slow" alt="" src={space} />
       </div>
       <div class="triangle t9 t-background">
-        <img className="t9-img t-img slow" alt="" src={space} />
+        <img className="t9-img t-img slow" alt="" src={lefthalf} />
       </div>
       <div class="triangle-down t10 t-background">
-        <img className="t10-img t-img slow" alt="" src={space} />
+        <img className="t10-img t-img slow" alt="" src={lefthalf} />
       </div>
       <div class="triangle t11 t-background">
         <img className="t11-img t-img slow" alt="" src={row2col1} />
