@@ -1,5 +1,6 @@
 import "./ContactSection.css";
 import background from "../../images/computerBackground2.jpg";
+import resume from "../../images/MarkMulliganFrontEndDeveloper.pdf"
 
 const ContactSection = () => {
   return (
@@ -41,7 +42,8 @@ const ContactSection = () => {
             </li>
             <li class="resume">
               <a
-                href="../../images/MarkMulliganFrontEndDeveloper.pdf"
+                href={resume}
+                rel="noreferrer"
                 target="_blank"
               >
                 Resume
