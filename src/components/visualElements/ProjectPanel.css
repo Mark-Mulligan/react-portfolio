@@ -104,6 +104,10 @@
     height: 280px;
   }
 
+  .project-info {
+    max-width: 210px;
+  }
+
   .description-background {
     width: 70%;
   }
@@ -119,6 +123,10 @@
   .project-info {
     max-width: 200px;
   }
+
+  .project-info {
+    max-width: 180px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -127,7 +135,13 @@
   }
 
   .description-background {
-    width: 75%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 350px) {
+  .description-background {
+    width: 88%
   }
 }
 

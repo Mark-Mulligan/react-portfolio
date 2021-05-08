@@ -21,13 +21,16 @@ const styles = (theme) => ({
     top: theme.spacing(1),
     color: theme.palette.grey[500],
   },
+  title: {
+    fontWeight: 700
+  },
 });
 
 const DialogTitle = withStyles(styles)((props) => {
   const { children, classes, onClose, ...other } = props;
   return (
     <MuiDialogTitle disableTypography className={classes.root} {...other}>
-      <Typography variant="h6">{children}</Typography>
+      <Typography className={classes.title} variant="h6">{children}</Typography>
       {onClose ? (
         <IconButton
           aria-label="close"
@@ -54,7 +57,14 @@ const DialogActions = withStyles((theme) => ({
   },
 }))(MuiDialogActions);
 
-const ProjectModal = ({ title, longDescription, builtWithList  }) => {
+const ProjectModal = ({
+  title,
+  longDescription,
+  builtWithList,
+  liveLink,
+  videoLink,
+  githubLink,
+}) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -66,6 +76,7 @@ const ProjectModal = ({ title, longDescription, builtWithList  }) => {
 
   return (
     <div>
+      {console.log(videoLink)}
       <Button variant="outlined" color="inherit" onClick={handleClickOpen}>
         More Info
       </Button>
@@ -78,20 +89,31 @@ const ProjectModal = ({ title, longDescription, builtWithList  }) => {
           {title}
         </DialogTitle>
         <DialogContent dividers>
-          <h2 className="modal-title">Detailed Description</h2>
-          <p>
-            {longDescription}
-          </p>
-          <h2 className="modal-title">Built With</h2>
+          <h6 className="modal-title">Detailed Description</h6>
+          <p>{longDescription}</p>
+          <h6 className="modal-title">Built With</h6>
           <p>{builtWithList}</p>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
-            Video Demo
-          </Button>
-          <Button onClick={handleClose} color="primary">
-            Github
-          </Button>
+          {videoLink && (
+            <a href={videoLink} target="_blank" rel="noreferrer" >
+            <Button color="primary">
+              Video Link
+            </Button>
+          </a>
+          )}
+          {liveLink && (
+            <a href={liveLink} target="_blank" rel="noreferrer" >
+            <Button color="primary">
+              Live Link
+            </Button>
+          </a>
+          )}
+          <a href={githubLink} target="_blank" rel="noreferrer" >
+            <Button color="primary">
+              Github
+            </Button>
+          </a>
         </DialogActions>
       </Dialog>
     </div>
