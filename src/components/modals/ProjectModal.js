@@ -76,7 +76,6 @@ const ProjectModal = ({
 
   return (
     <div>
-      {console.log(videoLink)}
       <Button variant="outlined" color="inherit" onClick={handleClickOpen}>
         More Info
       </Button>
