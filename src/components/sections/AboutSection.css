@@ -4,13 +4,10 @@
   padding-bottom: 120px;
   background-image: url("../../images/nightskyCompressed.jpg");
   background-size: cover;
-  background-attachment: fixed;
 }
 
-@media (max-width: 500px) {
-  .about-section {
-    background-attachment: scroll;
-  }
+.parallax-img {
+  background-attachment: fixed;
 }
 
 .skills-container {

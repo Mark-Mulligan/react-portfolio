@@ -1,9 +1,10 @@
 import "./AboutSection.css";
 import ProjectPanel from "../visualElements/ProjectPanel";
+import { isBrowser } from "react-device-detect";
 
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section className={`about-section ${isBrowser ? 'parallax-img' : ''}`}>
       <div className="container text-center p-5">
         <h2 className="section-title off-white" id="my-approach">My Approach</h2>
       </div>

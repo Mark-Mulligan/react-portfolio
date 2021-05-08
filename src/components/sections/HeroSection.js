@@ -2,7 +2,6 @@ import space from "../../images/spaceCompressed3.jpg";
 import row1col1 from "../../images/space-row1-col1-(2X4).jpg";
 import row1col2 from "../../images/space-row1-col2-(2X4).jpg";
 import row1 from "../../images/space-row1-(1X3).jpg";
-import row2col1 from "../../images/space-row2-col1-(2X2).jpg";
 import tophalf from "../../images/space-row1-col1-(1X2).jpg";
 import lefthalf from "../../images/space-row1-col1-(2X1).jpg";
 import "./HeroSection.css";
@@ -48,10 +47,10 @@ const HeroSection = () => {
         <img className="t10-img t-img slow" alt="" src={lefthalf} />
       </div>
       <div class="triangle t11 t-background">
-        <img className="t11-img t-img slow" alt="" src={row2col1} />
+        <img className="t11-img t-img slow" alt="" src={lefthalf} />
       </div>
       <div class="triangle-down t12 t-background">
-        <img className="t12-img t-img slow" alt="" src={row2col1} />
+        <img className="t12-img t-img slow" alt="" src={lefthalf} />
       </div>
     </div>
   );

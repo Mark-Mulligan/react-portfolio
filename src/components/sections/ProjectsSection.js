@@ -1,10 +1,11 @@
 import "./ProjectsSection.css";
 import ProjectPanel from "../visualElements/ProjectPanel";
+import { isMobile } from "react-device-detect";
 
 const ProjectsSection = () => {
   return (
     <section class="projects-section">
-      <div className="container p-5 text-center">
+      <div className={`${isMobile ? 'transition-background' : ''} p-5 text-center`}>
         <h2 className="section-title off-white" id="projects">Projects</h2>
       </div>
 
