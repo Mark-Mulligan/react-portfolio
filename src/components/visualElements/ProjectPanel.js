@@ -1,4 +1,5 @@
 import "./ProjectPanel.css";
+import ProjectModal from "../../components/modals/ProjectModal";
 
 const ProjectPanel = ({ cssImgClass, panelType, rightSide, title, description, liveLink, githubLink }) => {
   return (
@@ -11,13 +12,7 @@ const ProjectPanel = ({ cssImgClass, panelType, rightSide, title, description, l
                 <p>{description}</p>
                 {liveLink || githubLink ? <div class="project-links-container">
                   <div>
-                    <a
-                      href={liveLink}
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      More Info
-                    </a>
+                    <ProjectModal title={title} />
                   </div>
                 </div> : null}
                 
