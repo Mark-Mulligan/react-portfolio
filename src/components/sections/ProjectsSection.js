@@ -1,23 +1,25 @@
-import "./ProjectsSection.css";
-import ProjectPanel from "../visualElements/ProjectPanel";
-import { isMobile } from "react-device-detect";
+import './ProjectsSection.css';
+import ProjectPanel from '../visualElements/ProjectPanel';
+import { isMobile } from 'react-device-detect';
 
 const ProjectsSection = () => {
   return (
     <section class="projects-section">
       <div className={`${isMobile ? 'transition-background' : ''} p-5 text-center`}>
-        <h2 className="section-title off-white" id="projects">Projects</h2>
+        <h2 className="section-title off-white" id="projects">
+          Projects
+        </h2>
       </div>
 
       <div class="container projects-container p-0">
         <ProjectPanel
           cssImgClass="project-1"
-          title="Sneakerheads"
-          description="Social Media sight for those that love shoes."
-          longDescription="Sneakerheads is an online forum for shoe collectors to share their collections or to buy/trade shoes from other collectors. Additionally, users are able to chat with their fellow Sneakerheads in the app. A feed page shows all uploads from other users. If you'd like to review a certain user's page, you can click on their name from the feed page."
-          builtWithList="Express, React JS, Node JS, Material UI, React Chat App, React-Bootstrap, MySQL (via MySQL Workbench), JAWSDB, JSON Webtoken"
-          liveLink="https://sneaker-heads.herokuapp.com"
-          githubLink="https://github.com/hugo2211/Sneaker_Head"
+          title="Outdoor Adventures"
+          description="Your guide to the US's national parks."
+          longDescription="I am an active person and always enjoyed spending time outdoors. I designed this application to help search through and find detailed information on all the national parks in the United States. While building this project, I was able to incorporate a lot of different programming concepts that I wanted to explore. This project features server side pagination, redux state management and using library styled components to handle all css styling and complying. It is a fully stack application that is completly responsive."
+          builtWithList="Redux (using Redux Toolkit), Styled Components, React.js, Node.js, MySQL, Bootstrap, React Google Maps, National Parks API"
+          liveLink="https://outdoor-adventures1.netlify.app"
+          githubLink="https://github.com/Mark-Mulligan/outdoor-adventures-frontend-v1.0"
           panelType="top-right-panel"
           rightSide
         />
@@ -32,18 +34,28 @@ const ProjectsSection = () => {
           panelType="bottom-right-panel"
           rightSide
         />
-        <ProjectPanel 
+        <ProjectPanel
           cssImgClass="project-3"
+          title="Sneakerheads"
+          description="Social Media sight for those that love shoes."
+          longDescription="Sneakerheads is an online forum for shoe collectors to share their collections or to buy/trade shoes from other collectors. Additionally, users are able to chat with their fellow Sneakerheads in the app. A feed page shows all uploads from other users. If you'd like to review a certain user's page, you can click on their name from the feed page."
+          builtWithList="Express, React JS, Node JS, Material UI, React Chat App, React-Bootstrap, MySQL (via MySQL Workbench), JAWSDB, JSON Webtoken"
+          liveLink="https://sneaker-heads.herokuapp.com"
+          githubLink="https://github.com/hugo2211/Sneaker_Head"
+          panelType="top-right-panel"
+          rightSide
+        />
+        <ProjectPanel
+          cssImgClass="project-4"
           title="Employee Management System"
           description="For all your business administartion needs."
           longDescription="This app was designed to create a system for the employee data for a compoany. It includes tables with detailed information about the employees in the companay, roles that exists, and the departments within the compnay. It also has a data analytics section that displays charts and graph about generally information and trends within the employee data. This application is a full stack application that uses mySQL to store the data, an express server built on Node.js on the backend, React.js on the front end and Passport for authentication. This application also uses React-Chart.js 2 to assist with the data animations."
           builtWithList="React.js, Node.js, MySQL, Passport.js, React-Chart.js Bootstrap"
           liveLink="https://employee-management-system-1.herokuapp.com"
           githubLink="https://github.com/Mark-Mulligan/react-employee-management-system"
-          panelType="top-right-panel"
+          panelType="bottom-right-panel"
           rightSide
         />
-         
       </div>
     </section>
   );

@@ -42,7 +42,7 @@
   top: 0;
   height: 100%;
   width: 50%;
-  background:rgba(80, 80, 80,0.9);
+  background: rgba(80, 80, 80, 0.9);
   color: rgb(235, 235, 235);
 }
 
@@ -141,34 +141,38 @@
 
 @media (max-width: 350px) {
   .description-background {
-    width: 88%
+    width: 88%;
   }
 }
 
 .project-1 {
-  background-image: url("../../images/sneakerheadsFeed.jpg");
+  background-image: url('../../images/parkDetail.jpg');
 }
 
 .project-2 {
-  background-image: url("../../images/invoiceGenerator.jpg")
+  background-image: url('../../images/invoiceGenerator.jpg');
 }
 
 .project-3 {
-  background-image: url("../../images/employeeManagementCompressed2.jpg");
+  background-image: url('../../images/sneakerheadsFeed.jpg');
+}
+
+.project-4 {
+  background-image: url('../../images/employeeManagementCompressed2.jpg');
 }
 
 .responsive-image {
-  background-image: url("../../images/responsiveCompressed.jpg");
+  background-image: url('../../images/responsiveCompressed.jpg');
 }
 
 .dynamic-image {
-  background-image: url("../../images/dynamic.jpg");
+  background-image: url('../../images/dynamic.jpg');
 }
 
 .stylish-image {
-  background-image: url("../../images/stylishPicture.jpg");
+  background-image: url('../../images/stylishPicture.jpg');
 }
 
 .simple-image {
-  background-image: url("../../images/simplicity.jpg");
+  background-image: url('../../images/simplicity.jpg');
 }
