@@ -1,6 +1,6 @@
-import "./ContactSection.css";
-import background from "../../images/computerBackground2.jpg";
-import resume from "../../images/MarkMulliganFrontEndDeveloper.pdf"
+import './ContactSection.css';
+import background from '../../images/computerBackground2.jpg';
+import resume from '../../images/MarkMulliganFullStackDeveloper.pdf';
 
 const ContactSection = () => {
   return (
@@ -13,47 +13,27 @@ const ContactSection = () => {
       <div className="bottom">
         <ul className="contact-links">
           <div class="links-container">
-          <li class="email">
-              <a
-                href="mailto:mark.mulligan.jr1@gmail.com"
-              >
-                Email
-              </a>
+            <li class="email">
+              <a href="mailto:mark.mulligan.jr1@gmail.com">Email</a>
             </li>
             <li class="github">
-              <a
-                href="https://github.com/Mark-Mulligan"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/Mark-Mulligan" target="_blank" rel="noreferrer">
                 Github
               </a>
             </li>
             <li class="linkedin">
-              <a
-                href="https://www.linkedin.com/in/mark-mulligan-50"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.linkedin.com/in/mark-mulligan-50" target="_blank" rel="noreferrer">
                 Linkedin
               </a>
             </li>
-            
+
             <li class="facebook">
-              <a
-                href="https://www.facebook.com/mark.mulligan.5264"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.facebook.com/mark.mulligan.5264" target="_blank" rel="noreferrer">
                 Facebook
               </a>
             </li>
             <li class="resume">
-              <a
-                href={resume}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href={resume} rel="noreferrer" target="_blank">
                 Resume
               </a>
             </li>
