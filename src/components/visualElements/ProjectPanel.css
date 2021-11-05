@@ -146,18 +146,22 @@
 }
 
 .project-1 {
-  background-image: url('../../images/parkDetail.jpg');
+  background-image: url('../../images/betterMusic.jpg');
 }
 
 .project-2 {
-  background-image: url('../../images/invoiceGenerator.jpg');
+  background-image: url('../../images/parkDetail.jpg');
 }
 
 .project-3 {
-  background-image: url('../../images/sneakerheadsFeed.jpg');
+  background-image: url('../../images/invoiceGenerator.jpg');
 }
 
 .project-4 {
+  background-image: url('../../images/sneakerheadsFeed.jpg');
+}
+
+.project-5 {
   background-image: url('../../images/employeeManagementCompressed2.jpg');
 }
 
